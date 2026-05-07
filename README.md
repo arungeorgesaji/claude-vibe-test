@@ -2,6 +2,8 @@
 
 A waifu chat site with multiple AI personalities, powered by MiniMax via the [Hack Club AI proxy](https://ai.hackclub.com).
 
+> **Note:** This project was vibecoded entirely by Claude as a test of its capabilities. It is not intended for production use.
+
 ## Characters
 
 | Avatar | Name | Personality |
