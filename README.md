@@ -13,6 +13,7 @@ A waifu chat site with multiple AI personalities, powered by MiniMax via the [Ha
 | ☀️ | **Sora** | Outrageously energetic sunshine girl |
 | 🌿 | **Nami** | Cool, wise, older-sister energy |
 | ⚡ | **Kira** | Competitive gamer with a hidden soft side |
+| 🩷 | **Misa** | Sweetly, completely, dangerously devoted |
 
 Each character has a custom SVG portrait illustration in `public/avatars/`.
 
