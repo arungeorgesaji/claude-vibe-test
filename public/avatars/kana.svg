@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#1a0408"/><stop offset="100%" stop-color="#0a0204"/>
+    </radialGradient>
+    <clipPath id="c"><circle cx="100" cy="100" r="100"/></clipPath>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bg)"/>
+  <g clip-path="url(#c)">
+    <!-- Outfit - dark gothic elegant, high collar -->
+    <path d="M30 220 Q50 165 75 156 L100 164 L125 156 Q150 165 170 220Z" fill="#1a0810"/>
+    <!-- Collar detail -->
+    <path d="M80 158 Q100 168 120 158 Q110 172 100 174 Q90 172 80 158Z" fill="#2a0c18"/>
+    <path d="M86 156 Q100 162 114 156 L112 160 Q100 165 88 160Z" fill="#8a1020"/>
+    <rect x="86" y="150" width="28" height="18" rx="3" fill="#f0d0c8"/>
+    <!-- Hair back - long, dramatic, black with deep red sheen -->
+    <path d="M46 94 Q38 148 42 215 L158 215 Q162 148 154 94 Q134 38 100 36 Q66 38 46 94Z" fill="#1a0810"/>
+    <!-- Extra dramatic volume - hair sweeps wide -->
+    <path d="M46 94 Q30 115 26 170 Q38 138 48 108Z" fill="#120608"/>
+    <path d="M154 94 Q170 115 174 170 Q162 138 152 108Z" fill="#120608"/>
+    <!-- Red sheen highlights in hair -->
+    <path d="M52 100 Q50 130 52 165 Q56 132 56 102Z" fill="#6a0c18" opacity="0.6"/>
+    <path d="M148 100 Q150 130 148 165 Q144 132 144 102Z" fill="#6a0c18" opacity="0.6"/>
+    <path d="M80 45 Q78 65 80 78 Q82 62 80 44Z" fill="#6a0c18" opacity="0.5"/>
+    <path d="M108 43 Q110 62 108 76 Q106 60 108 42Z" fill="#6a0c18" opacity="0.5"/>
+    <!-- Face -->
+    <ellipse cx="100" cy="110" rx="50" ry="57" fill="#f0d0c8"/>
+    <!-- Ears -->
+    <ellipse cx="50" cy="113" rx="8" ry="10" fill="#f0d0c8"/><ellipse cx="50" cy="113" rx="5" ry="7" fill="#eccab8"/>
+    <ellipse cx="150" cy="113" rx="8" ry="10" fill="#f0d0c8"/><ellipse cx="150" cy="113" rx="5" ry="7" fill="#eccab8"/>
+    <!-- Small dark earring -->
+    <circle cx="42" cy="120" r="2.5" fill="#8a1020"/>
+    <!-- Hair front - dramatic parted bangs, one side sweeping over eye -->
+    <path d="M46 94 Q50 64 67 52 Q83 42 100 41 Q117 42 133 52 Q150 64 154 94 Q137 60 100 59 Q63 60 46 94Z" fill="#1a0810"/>
+    <!-- Long sweep over left side - slightly covering eye -->
+    <path d="M56 72 Q52 90 54 108 Q56 86 60 72Z" fill="#120608"/>
+    <path d="M66 57 Q62 76 63 90 Q67 72 67 56Z" fill="#120608"/>
+    <path d="M80 47 Q76 65 76 80 Q80 62 80 46Z" fill="#120608"/>
+    <!-- Part sweeps dramatically left -->
+    <path d="M94 46 Q90 64 88 80 Q92 60 94 45Z" fill="#120608"/>
+    <path d="M94 78 Q90 95 88 110 Q92 92 94 77Z" fill="#1a0810" opacity="0.9"/>
+    <!-- Right side shorter -->
+    <path d="M112 48 Q116 64 115 74 Q112 60 112 47Z" fill="#120608"/>
+    <path d="M126 57 Q130 72 130 82 Q127 68 126 56Z" fill="#120608"/>
+    <path d="M138 68 Q142 84 142 93 Q139 80 138 67Z" fill="#120608"/>
+    <!-- Eyebrows - sharp and elegant -->
+    <path d="M68 91 Q80 86 93 90" stroke="#4a0810" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+    <path d="M107 90 Q120 86 132 91" stroke="#4a0810" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+    <!-- LEFT EYE - deep crimson (the "dark" eye) -->
+    <ellipse cx="80" cy="108" rx="13" ry="14" fill="#0a0204"/>
+    <ellipse cx="80" cy="109" rx="10" ry="11" fill="#780818"/>
+    <ellipse cx="80" cy="109" rx="7" ry="8" fill="#b01020"/>
+    <circle cx="80" cy="107" r="4.5" fill="#050102"/>
+    <circle cx="75.5" cy="103" r="2.5" fill="white" opacity="0.9"/>
+    <circle cx="82.5" cy="104" r="1.2" fill="white" opacity="0.6"/>
+    <!-- Clock ring detail in left iris -->
+    <circle cx="80" cy="109" r="9.5" stroke="#6a0810" stroke-width="0.6" fill="none" opacity="0.5"/>
+    <line x1="80" y1="101" x2="80" y2="104" stroke="#c82030" stroke-width="0.8" opacity="0.7"/>
+    <line x1="88" y1="109" x2="85" y2="109" stroke="#c82030" stroke-width="0.8" opacity="0.7"/>
+    <line x1="80" y1="117" x2="80" y2="114" stroke="#c82030" stroke-width="0.8" opacity="0.7"/>
+    <line x1="72" y1="109" x2="75" y2="109" stroke="#c82030" stroke-width="0.8" opacity="0.7"/>
+    <path d="M80 107 L82 104" stroke="#f04050" stroke-width="1" stroke-linecap="round" opacity="0.9"/>
+    <path d="M80 107 L83 109" stroke="#f04050" stroke-width="0.8" stroke-linecap="round" opacity="0.7"/>
+    <path d="M67 101 Q80 95 93 101" stroke="#0a0204" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- RIGHT EYE - gold/amber (the "normal" beautiful eye) -->
+    <ellipse cx="120" cy="108" rx="13" ry="14" fill="#0a0808"/>
+    <ellipse cx="120" cy="109" rx="10" ry="11" fill="#785010"/>
+    <ellipse cx="120" cy="109" rx="7" ry="8" fill="#c08820"/>
+    <circle cx="120" cy="107" r="4.5" fill="#050402"/>
+    <circle cx="115.5" cy="103" r="2.5" fill="white" opacity="0.92"/>
+    <circle cx="122.5" cy="104" r="1.2" fill="white" opacity="0.65"/>
+    <path d="M107 101 Q120 95 133 101" stroke="#0a0808" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Subtle blush - barely there, just a hint -->
+    <ellipse cx="67" cy="120" rx="10" ry="4" fill="#e08070" opacity="0.15"/>
+    <ellipse cx="133" cy="120" rx="10" ry="4" fill="#e08070" opacity="0.15"/>
+    <!-- Nose - refined -->
+    <path d="M96 123 Q100 127 104 123" stroke="#c89080" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <!-- Mouth - playful smirk, slightly one-sided -->
+    <path d="M88 135 Q97 141 110 136" stroke="#c03040" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M88 135 Q87 138 90 140" stroke="#c03040" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Tiny fang hint -->
+    <path d="M97 141 L96 144" stroke="#f0d0c8" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Clock/rose motif in background -->
+    <circle cx="165" cy="38" r="12" stroke="#6a0c18" stroke-width="1" fill="none" opacity="0.35"/>
+    <line x1="165" y1="28" x2="165" y2="33" stroke="#6a0c18" stroke-width="1" opacity="0.35"/>
+    <line x1="175" y1="38" x2="170" y2="38" stroke="#6a0c18" stroke-width="1" opacity="0.35"/>
+    <line x1="165" y1="48" x2="165" y2="43" stroke="#6a0c18" stroke-width="1" opacity="0.35"/>
+    <line x1="155" y1="38" x2="160" y2="38" stroke="#6a0c18" stroke-width="1" opacity="0.35"/>
+    <path d="M165 36 L166.5 33" stroke="#c02030" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+    <path d="M165 36 L168 38" stroke="#c02030" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+    <!-- Feather/rose petal accent -->
+    <path d="M30 40 Q34 32 40 36 Q36 44 30 40Z" fill="#6a0c18" opacity="0.4"/>
+    <path d="M26 48 Q32 42 36 48 Q30 54 26 48Z" fill="#6a0c18" opacity="0.3"/>
+  </g>
+</svg>
