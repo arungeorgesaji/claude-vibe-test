@@ -46,9 +46,20 @@ Open `http://localhost:3000`. No API key required — the HackClub proxy is free
   "accentFrom": "#hexcolor",
   "accentTo": "#hexcolor",
   "avatar": "/avatars/mychar.svg",
+  "avatarUrl": "https://i.pinimg.com/...",
   "systemPrompt": "Full system prompt defining the character..."
 }
 ```
+
+### Custom avatar images
+
+Add an `avatarUrl` to any personality JSON to use an external image (e.g. from Pinterest) instead of the default SVG illustration. The SVG is always kept as a fallback — if the URL fails to load, it automatically shows the SVG.
+
+```json
+"avatarUrl": "https://i.pinimg.com/736x/ab/cd/ef/abcdef.jpg"
+```
+
+`avatarUrl` is optional — omit it to use the SVG.
 
 ## Stack
 

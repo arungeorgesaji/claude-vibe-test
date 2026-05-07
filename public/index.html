@@ -448,6 +448,13 @@
   <script>
     let personalities = [];
     let currentPersonality = null;
+
+    function avatarImg(p, cls = '') {
+      const src = p.avatarUrl || p.avatar;
+      const fallback = p.avatar;
+      const err = src !== fallback ? `onerror="this.onerror=null;this.src='${fallback}'"` : '';
+      return `<img src="${src}" alt="${p.name}" ${err} ${cls ? `class="${cls}"` : ''}/>`;
+    }
     let history = [];
     let isStreaming = false;
 
@@ -471,7 +478,7 @@
         <div class="char-card" onclick="selectCharacter('${p.id}')"
           style="--card-from:${p.accentFrom};--card-to:${p.accentTo}">
           <div class="card-avatar-wrap">
-            <img src="${p.avatar}" alt="${p.name}" loading="lazy"/>
+            ${avatarImg(p)}
           </div>
           <div class="card-body">
             <div class="card-name">${p.name}</div>
@@ -489,14 +496,14 @@
       document.documentElement.style.setProperty('--char-from', currentPersonality.accentFrom);
       document.documentElement.style.setProperty('--char-to', currentPersonality.accentTo);
 
-      chatAvatar.innerHTML = `<img src="${currentPersonality.avatar}" alt="${currentPersonality.name}"/>`;
+      chatAvatar.innerHTML = avatarImg(currentPersonality);
       chatName.textContent = currentPersonality.name;
       inputEl.placeholder = `Say something to ${currentPersonality.name}...`;
 
       messagesEl.innerHTML = `
         <div class="welcome" id="welcome">
           <div class="welcome-avatar">
-            <img src="${currentPersonality.avatar}" alt="${currentPersonality.name}"/>
+            ${avatarImg(currentPersonality)}
           </div>
           <h2>${currentPersonality.name}</h2>
           <p>${currentPersonality.description}</p>
@@ -580,7 +587,7 @@
 
       const av = document.createElement('div');
       av.className = 'msg-avatar';
-      av.innerHTML = `<img src="${currentPersonality.avatar}" alt="${currentPersonality.name}"/>`;
+      av.innerHTML = avatarImg(currentPersonality);
 
       const bubble = document.createElement('div');
       bubble.className = 'bubble typing-indicator';
