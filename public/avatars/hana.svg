@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#062040"/><stop offset="100%" stop-color="#030e1e"/>
+    </radialGradient>
+    <clipPath id="c"><circle cx="100" cy="100" r="100"/></clipPath>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bg)"/>
+  <g clip-path="url(#c)">
+    <!-- Outfit -->
+    <path d="M30 220 Q50 174 75 167 L100 174 L125 167 Q150 174 170 220Z" fill="#1a4878"/>
+    <rect x="86" y="152" width="28" height="26" rx="4" fill="#f2d8c8"/>
+    <!-- Left twintail -->
+    <path d="M50 100 Q30 120 28 165 Q40 140 52 115Z" fill="#60b8e0"/>
+    <path d="M50 100 Q24 130 22 175 Q36 145 50 115Z" fill="#4aa0c8"/>
+    <!-- Right twintail -->
+    <path d="M150 100 Q170 120 172 165 Q160 140 148 115Z" fill="#60b8e0"/>
+    <path d="M150 100 Q176 130 178 175 Q164 145 150 115Z" fill="#4aa0c8"/>
+    <!-- Hair back top -->
+    <path d="M50 100 Q50 60 100 50 Q150 60 150 100 Q130 70 100 68 Q70 70 50 100Z" fill="#60b8e0"/>
+    <!-- Face -->
+    <ellipse cx="100" cy="110" rx="50" ry="57" fill="#f2d8c8"/>
+    <!-- Ears -->
+    <ellipse cx="50" cy="113" rx="8" ry="10" fill="#f2d8c8"/><ellipse cx="50" cy="113" rx="5" ry="7" fill="#eecc b8"/>
+    <ellipse cx="150" cy="113" rx="8" ry="10" fill="#f2d8c8"/><ellipse cx="150" cy="113" rx="5" ry="7" fill="#eeccb8"/>
+    <!-- Ear ribbons -->
+    <path d="M42 100 Q36 92 40 85 Q46 90 46 100Z" fill="#88d0f0"/>
+    <path d="M158 100 Q164 92 160 85 Q154 90 154 100Z" fill="#88d0f0"/>
+    <!-- Hair front bangs -->
+    <path d="M50 100 Q52 72 66 58 Q82 46 100 45 Q118 46 134 58 Q148 72 150 100 Q134 68 100 67 Q66 68 50 100Z" fill="#60b8e0"/>
+    <path d="M62 74 Q64 92 68 97 Q66 80 65 73Z" fill="#4aa0c8"/>
+    <path d="M80 57 Q79 78 82 84 Q84 68 82 56Z" fill="#4aa0c8"/>
+    <path d="M100 56 Q99 74 102 80 Q104 66 102 55Z" fill="#4aa0c8"/>
+    <path d="M120 58 Q122 78 118 84 Q116 68 118 57Z" fill="#4aa0c8"/>
+    <path d="M136 70 Q138 89 142 94 Q140 79 138 69Z" fill="#4aa0c8"/>
+    <!-- Twintail ties -->
+    <path d="M46 98 Q52 92 58 98 Q52 104 46 98Z" fill="#88d0f0"/>
+    <path d="M154 98 Q148 92 142 98 Q148 104 154 98Z" fill="#88d0f0"/>
+    <!-- Eyebrows - slightly furrowed/tsundere -->
+    <path d="M68 91 Q80 87 91 92" stroke="#3870a0" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- slight inner brow raise -->
+    <path d="M109 92 Q120 87 132 91" stroke="#3870a0" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Eyes - looking slightly to the side -->
+    <ellipse cx="80" cy="108" rx="13" ry="13" fill="#0a1828"/>
+    <ellipse cx="81" cy="109" rx="10" ry="10" fill="#1870b0"/>
+    <ellipse cx="81" cy="109" rx="7" ry="7" fill="#30a0d8"/>
+    <circle cx="82" cy="107" r="4.5" fill="#061018"/>
+    <circle cx="79" cy="103.5" r="2.5" fill="white" opacity="0.95"/>
+    <circle cx="84.5" cy="104.5" r="1.2" fill="white" opacity="0.65"/>
+    <path d="M67 101 Q80 96 93 101" stroke="#0a1828" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <ellipse cx="120" cy="108" rx="13" ry="13" fill="#0a1828"/>
+    <ellipse cx="121" cy="109" rx="10" ry="10" fill="#1870b0"/>
+    <ellipse cx="121" cy="109" rx="7" ry="7" fill="#30a0d8"/>
+    <circle cx="122" cy="107" r="4.5" fill="#061018"/>
+    <circle cx="119" cy="103.5" r="2.5" fill="white" opacity="0.95"/>
+    <circle cx="124.5" cy="104.5" r="1.2" fill="white" opacity="0.65"/>
+    <path d="M107 101 Q120 96 133 101" stroke="#0a1828" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Heavy blush marks (tsundere) -->
+    <ellipse cx="65" cy="120" rx="13" ry="6" fill="#f06878" opacity="0.38"/>
+    <ellipse cx="135" cy="120" rx="13" ry="6" fill="#f06878" opacity="0.38"/>
+    <!-- Blush dots -->
+    <circle cx="60" cy="120" r="1.5" fill="#f06878" opacity="0.5"/>
+    <circle cx="63" cy="123" r="1" fill="#f06878" opacity="0.4"/>
+    <circle cx="140" cy="120" r="1.5" fill="#f06878" opacity="0.5"/>
+    <circle cx="137" cy="123" r="1" fill="#f06878" opacity="0.4"/>
+    <!-- Nose -->
+    <path d="M96 123 Q100 127 104 123" stroke="#c8a888" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+    <!-- Mouth - slight pout/looking away expression -->
+    <path d="M90 136 Q100 141 108 137" stroke="#d06070" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M90 136 Q91 138 94 137" stroke="#d06070" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#5a0a18"/><stop offset="100%" stop-color="#1a0408"/>
+    </radialGradient>
+    <clipPath id="c"><circle cx="100" cy="100" r="100"/></clipPath>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bg)"/>
+  <g clip-path="url(#c)">
+    <!-- Outfit -->
+    <path d="M30 220 Q50 172 75 165 L100 173 L125 165 Q150 172 170 220Z" fill="#8a1a2a"/>
+    <rect x="86" y="152" width="28" height="26" rx="4" fill="#f5d0b5"/>
+    <!-- Hair back - wild/voluminous -->
+    <path d="M42 92 Q30 130 38 210 L162 210 Q170 130 158 92 Q138 38 100 36 Q62 38 42 92Z" fill="#8a1020"/>
+    <!-- Extra wild volume -->
+    <path d="M42 92 Q32 70 40 50 Q50 35 60 45 Q48 65 48 90Z" fill="#701018"/>
+    <path d="M158 92 Q168 70 160 50 Q150 35 140 45 Q152 65 152 90Z" fill="#701018"/>
+    <!-- Face -->
+    <ellipse cx="100" cy="110" rx="50" ry="57" fill="#f5d0b5"/>
+    <!-- Ears -->
+    <ellipse cx="50" cy="113" rx="8" ry="10" fill="#f5d0b5"/><ellipse cx="50" cy="113" rx="5" ry="7" fill="#f0c4a0"/>
+    <ellipse cx="150" cy="113" rx="8" ry="10" fill="#f5d0b5"/><ellipse cx="150" cy="113" rx="5" ry="7" fill="#f0c4a0"/>
+    <!-- Hair front -->
+    <path d="M42 92 Q46 64 62 52 Q78 41 100 40 Q122 41 138 52 Q154 64 158 92 Q142 60 100 59 Q58 60 42 92Z" fill="#8a1020"/>
+    <!-- Swept side bangs - asymmetric/sexy -->
+    <path d="M56 68 Q52 88 55 105 Q60 82 64 68Z" fill="#701018"/>
+    <path d="M68 54 Q64 76 66 88 Q72 70 72 54Z" fill="#701018"/>
+    <path d="M88 44 Q84 66 86 76 Q92 58 90 44Z" fill="#701018"/>
+    <!-- Long side sweep right -->
+    <path d="M140 58 Q152 80 155 120 Q148 90 138 68Z" fill="#701018"/>
+    <!-- Eyebrows - strong/defined -->
+    <path d="M67 92 Q80 86 93 89" stroke="#500810" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M107 89 Q120 86 133 92" stroke="#500810" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Left eye -->
+    <ellipse cx="80" cy="107" rx="13" ry="13" fill="#150308"/>
+    <ellipse cx="80" cy="108" rx="10" ry="10" fill="#901820"/>
+    <ellipse cx="80" cy="108" rx="7" ry="7" fill="#c02830"/>
+    <circle cx="80" cy="106" r="4.5" fill="#100208"/>
+    <circle cx="75.5" cy="102.5" r="2.5" fill="white" opacity="0.9"/>
+    <circle cx="82.5" cy="103.5" r="1.2" fill="white" opacity="0.65"/>
+    <path d="M67 100 Q80 95 93 100" stroke="#150308" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <!-- Right eye - slight smirk squint -->
+    <ellipse cx="120" cy="108" rx="13" ry="12" fill="#150308"/>
+    <ellipse cx="120" cy="109" rx="10" ry="9" fill="#901820"/>
+    <ellipse cx="120" cy="109" rx="7" ry="7" fill="#c02830"/>
+    <circle cx="120" cy="107" r="4.5" fill="#100208"/>
+    <circle cx="115.5" cy="103.5" r="2.5" fill="white" opacity="0.9"/>
+    <circle cx="122.5" cy="104.5" r="1.2" fill="white" opacity="0.65"/>
+    <path d="M107 101 Q120 96 133 101" stroke="#150308" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M96 123 Q100 127 104 123" stroke="#d09878" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+    <!-- Smirk mouth -->
+    <path d="M88 135 Q96 140 108 135" stroke="#d04858" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M88 135 Q87 138 90 140" stroke="#d04858" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Beauty mark -->
+    <circle cx="116" cy="125" r="2" fill="#401010"/>
+  </g>
+</svg>

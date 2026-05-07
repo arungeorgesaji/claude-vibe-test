@@ -31,8 +31,8 @@ loadPersonalities().then(p => {
 });
 
 app.get('/api/personalities', (req, res) => {
-  const list = Object.values(personalities).map(({ id, name, emoji, tagline, description, accentFrom, accentTo }) => ({
-    id, name, emoji, tagline, description, accentFrom, accentTo,
+  const list = Object.values(personalities).map(({ id, name, emoji, tagline, description, accentFrom, accentTo, avatar }) => ({
+    id, name, emoji, tagline, description, accentFrom, accentTo, avatar,
   }));
   res.json(list);
 });

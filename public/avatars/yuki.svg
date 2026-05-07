@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#2d1b6b"/><stop offset="100%" stop-color="#0f0a24"/>
+    </radialGradient>
+    <clipPath id="c"><circle cx="100" cy="100" r="100"/></clipPath>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bg)"/>
+  <g clip-path="url(#c)">
+    <!-- Outfit -->
+    <path d="M30 220 Q50 175 75 168 L100 175 L125 168 Q150 175 170 220Z" fill="#d4b0f0"/>
+    <rect x="86" y="152" width="28" height="26" rx="4" fill="#f5d5b8"/>
+    <!-- Hair back -->
+    <path d="M48 98 Q42 145 52 210 L148 210 Q158 145 152 98 Q132 48 100 46 Q68 48 48 98Z" fill="#c49de8"/>
+    <!-- Face -->
+    <ellipse cx="100" cy="110" rx="50" ry="57" fill="#f5d5b8"/>
+    <!-- Ears -->
+    <ellipse cx="50" cy="113" rx="8" ry="10" fill="#f5d5b8"/><ellipse cx="50" cy="113" rx="5" ry="7" fill="#f0c5a5"/>
+    <ellipse cx="150" cy="113" rx="8" ry="10" fill="#f5d5b8"/><ellipse cx="150" cy="113" rx="5" ry="7" fill="#f0c5a5"/>
+    <!-- Hair front -->
+    <path d="M48 98 Q50 68 65 56 Q80 44 100 43 Q120 44 135 56 Q150 68 152 98 Q135 66 100 65 Q65 66 48 98Z" fill="#c49de8"/>
+    <path d="M60 74 Q63 92 68 96 Q66 80 65 68Z" fill="#b085d8"/>
+    <path d="M80 57 Q80 79 84 85 Q86 70 84 56Z" fill="#b085d8"/>
+    <path d="M100 55 Q99 75 102 81 Q104 67 102 54Z" fill="#b085d8"/>
+    <path d="M120 58 Q122 78 118 84 Q116 70 118 57Z" fill="#b085d8"/>
+    <path d="M138 70 Q140 88 144 93 Q143 78 140 69Z" fill="#b085d8"/>
+    <path d="M48 98 Q44 128 48 165 Q53 130 57 98Z" fill="#c49de8"/>
+    <path d="M152 98 Q156 128 152 165 Q147 130 143 98Z" fill="#c49de8"/>
+    <!-- Eyebrows -->
+    <path d="M68 93 Q80 88 92 91" stroke="#8858b0" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M108 91 Q120 88 132 93" stroke="#8858b0" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Left eye -->
+    <ellipse cx="80" cy="108" rx="13" ry="14" fill="#18082c"/>
+    <ellipse cx="80" cy="109" rx="10" ry="11" fill="#6838a8"/>
+    <ellipse cx="80" cy="109" rx="7" ry="8" fill="#9060cc"/>
+    <circle cx="80" cy="107" r="4.5" fill="#100618"/>
+    <circle cx="75.5" cy="103.5" r="2.5" fill="white" opacity="0.95"/>
+    <circle cx="82.5" cy="104.5" r="1.2" fill="white" opacity="0.7"/>
+    <path d="M67 101 Q80 96 93 101" stroke="#18082c" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Right eye -->
+    <ellipse cx="120" cy="108" rx="13" ry="14" fill="#18082c"/>
+    <ellipse cx="120" cy="109" rx="10" ry="11" fill="#6838a8"/>
+    <ellipse cx="120" cy="109" rx="7" ry="8" fill="#9060cc"/>
+    <circle cx="120" cy="107" r="4.5" fill="#100618"/>
+    <circle cx="115.5" cy="103.5" r="2.5" fill="white" opacity="0.95"/>
+    <circle cx="122.5" cy="104.5" r="1.2" fill="white" opacity="0.7"/>
+    <path d="M107 101 Q120 96 133 101" stroke="#18082c" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Blush -->
+    <ellipse cx="66" cy="121" rx="11" ry="5" fill="#f080a0" opacity="0.3"/>
+    <ellipse cx="134" cy="121" rx="11" ry="5" fill="#f080a0" opacity="0.3"/>
+    <!-- Nose -->
+    <path d="M96 124 Q100 128 104 124" stroke="#d4a080" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+    <!-- Smile -->
+    <path d="M88 136 Q100 147 112 136" stroke="#e07080" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <!-- Bow accessory -->
+    <path d="M120 68 Q127 60 134 64 Q127 69 120 68Z" fill="#f090c8"/>
+    <path d="M134 64 Q141 60 138 68 Q133 71 134 64Z" fill="#f090c8"/>
+    <circle cx="134" cy="65" r="3.5" fill="#e06898"/>
+  </g>
+</svg>
